@@ -1,0 +1,19 @@
+{
+	"universalMiddlewares":{
+		"errorHandler":"",
+		"urlNotFound":"errorhandlers/urlNotFound",
+		"allMethods":[],
+		"get":[],
+		"post":[],
+		"update":[],
+		"delete":[]
+	},
+	"routes":[
+		{
+			"url":"/shutdown",
+			"method":"get",
+			"handler":"handlers/shutdown",
+			"middlewares":[]	
+		}
+	]
+}
